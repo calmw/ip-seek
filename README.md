@@ -15,10 +15,11 @@ use Calm\IpSeek;
 
 class Location
 {
-    public function getLocation(Request $request): array
+    public function getLocationByIp($ip): array
     {
         $ipSeek = new IpSeek();
-        $ipSeek->getLocationByIp("129.226.205.74");
+        $ipSeek->getLocationByIp($ip);
     }
 }
+
 ```
