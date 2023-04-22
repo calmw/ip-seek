@@ -1,21 +1,21 @@
 {
-    "name": "cisco/ipseek",
-    "description": "get location by ip",
-    "type": "1",
-    "require": {
-        "php": "8.0.26"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "cisco",
-            "email": "calm.wang@hotmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Guanguans\": "src/"
-        }
+  "name": "cisco/ipseek",
+  "description": "get location by ip",
+  "type": "1",
+  "require": {
+    "php": "8.0.26"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cisco",
+      "email": "calm.wang@hotmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Ipseek": "src/"
+    }
+  }
 }
