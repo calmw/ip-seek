@@ -1,5 +1,5 @@
 {
-  "name": "calmw/ipseek",
+  "name": "calm/ip_seek",
   "description": "get location by ip",
   "type": "1",
   "require": {
@@ -15,7 +15,7 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "calmw\\ipseek\\": "src/"
+      "Calm\\": "src/"
     }
   }
 }

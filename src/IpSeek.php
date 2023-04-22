@@ -1,6 +1,6 @@
 <?php
 
-namespace calm;
+namespace Calm;
 class IpSeek
 {
     public function getLocationByIp($ip, $host = "https://ip.teco.cool/api/v1/"): array

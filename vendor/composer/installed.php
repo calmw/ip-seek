@@ -7,11 +7,11 @@
     array (
     ),
     'reference' => NULL,
-    'name' => 'cisco/ipseek',
+    'name' => 'calm/ip_seek',
   ),
   'versions' => 
   array (
-    'cisco/ipseek' => 
+    'calm/ip_seek' => 
     array (
       'pretty_version' => '1.0.0+no-version-set',
       'version' => '1.0.0.0',
