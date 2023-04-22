@@ -1,2 +1,4 @@
 # ip-seek
-composer package
+
+- composer package
+- get location by ip
