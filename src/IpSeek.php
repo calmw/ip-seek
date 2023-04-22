@@ -12,13 +12,14 @@ class IpSeek
             ];
         }
 
+        $SIGN = "i am a signature";
         $sign = $this->makeSign([
-            "SIGN" => "i am a signature",
+            "SIGN" => $SIGN,
             "ip" => $ip,
         ]);
 
         $postData = [
-            "SIGN" => "SIGN",
+            "SIGN" => $SIGN,
             "ip" => $ip,
             "sign" => $sign,
         ];
@@ -71,7 +72,6 @@ class IpSeek
 
     public function checkIpv4($ip): bool
     {
-        // 内网IP不检测
         if (!filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE)) {
             return false;
         }
