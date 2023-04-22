@@ -1,5 +1,5 @@
 {
-  "name": "cisco/ipseek",
+  "name": "calmw/ipseek",
   "description": "get location by ip",
   "type": "1",
   "require": {
