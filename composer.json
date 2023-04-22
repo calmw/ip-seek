@@ -12,10 +12,10 @@
       "email": "calm.wang@hotmail.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "Ipseek\\": "src/"
+      "calmw\\ipseek\\": "src/"
     }
   }
 }
