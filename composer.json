@@ -3,7 +3,7 @@
   "description": "get location by ip",
   "type": "1",
   "require": {
-    "php": "8.0.26"
+    "php": "^8.0"
   },
   "license": "MIT",
   "authors": [
